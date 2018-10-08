@@ -24,18 +24,18 @@ $ TestNow=`date +%d-%m-%Y_%H.%M.%S` && open -a Simulator.app && xcodebuild -work
 
 7. Once the tests have started, progress and brief summary of execution can be seen on the terminal in human readable format as shown below
 
-![Alt text](/ReadmeImages/TerminalSummary.png?raw=true "Optional Title")
+![Alt text](/ReadmeImages/TerminalSummary.png?raw=true "Terminal Summary")
 
 8. Once the test execution is complete, HTML report gets generated in "llmv/Reports/TestResults-<timeStamp>" folder
 
-
+![Alt text](/ReadmeImages/ReportFolder.png?raw=true "Report Folder")
 
 9. Navigate to "llmv/Reports/TestResults-<timeStamp>" folder and open "index.html" file in your favourite browser to view the latest test execution report in detail
 
 10. Drilldown into each test case to get step by step execution report for every test case in the suite
 
-
+![Alt text](/ReadmeImages/ReportHTML.png?raw=true "Report HTML")
 
 11. Screenshots are attached for the failed test cases
 
-
+![Alt text](/ReadmeImages/ReportAttachment.png?raw=true "Report Attachment")  
