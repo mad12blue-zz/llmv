@@ -1,0 +1,222 @@
+--- !logd statistics record
+type  : Memory Rollover
+time  : 2018-10-02 22:24:39+0530
+total : 9797806
+procs :
+    - [    3445466,  35.2, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/SpringBoard.app/SpringBoard ]
+    - [    1296062,  13.2, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/pkd ]
+    - [     672218,   6.9, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/Search.framework/searchd ]
+    - [     606090,   6.2, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/assertiond ]
+    - [     381504,   3.9, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd ]
+    - [     259346,   2.6, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/FileProvider.framework/Support/fileproviderd ]
+    - [     196376,   2.0, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/UserEventAgent ]
+    - [     193564,   2.0, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/locationd ]
+    - [     160761,   1.6, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/backboardd ]
+    - [     104912,   1.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/FileProvider.framework/PlugIns/LocalStorageFileProvider.appex/LocalStorageFileProvider ]
+    - [     100668,   1.0, /Users/madhan/Library/Developer/CoreSimulator/Devices/D7197192-2E72-406F-95D2-989F36036351/data/Containers/Bundle/Application/4C289F42-9995-4FCD-B9EF-21BC5990D231/LalaTest.app/LalaTest ]
+    - [      85780,   0.9, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd ]
+    - [      84958,   0.9, /Users/madhan/Library/Developer/CoreSimulator/Devices/D7197192-2E72-406F-95D2-989F36036351/data/Containers/Bundle/Application/89206613-55DA-4C64-815F-DEF6DEDCFB10/LalaTest.app/LalaTest ]
+    - [      77440,   0.8, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/testmanagerd ]
+    - [      72100,   0.7, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/GeoServices.framework/geod ]
+    - [      67745,   0.7, /Users/madhan/Library/Developer/CoreSimulator/Devices/D7197192-2E72-406F-95D2-989F36036351/data/Containers/Bundle/Application/B3B800DD-7410-4E76-A3CF-1A293ADB9AF2/LalaTest.app/LalaTest ]
+    - [      66323,   0.7, /Users/madhan/Library/Developer/CoreSimulator/Devices/D7197192-2E72-406F-95D2-989F36036351/data/Containers/Bundle/Application/928F8D46-B72F-4C85-A6FA-D874FDC380DD/LalaTest.app/LalaTest ]
+    - [      66323,   0.7, /Users/madhan/Library/Developer/CoreSimulator/Devices/D7197192-2E72-406F-95D2-989F36036351/data/Containers/Bundle/Application/3BE37DB4-C6A4-4441-8225-493FC9D0BDED/LalaTest.app/LalaTest ]
+    - [      66322,   0.7, /Users/madhan/Library/Developer/CoreSimulator/Devices/D7197192-2E72-406F-95D2-989F36036351/data/Containers/Bundle/Application/CB82A3A6-6B25-44EF-BFAD-7747BB57FF26/LalaTest.app/LalaTest ]
+    - [      66321,   0.7, /Users/madhan/Library/Developer/CoreSimulator/Devices/D7197192-2E72-406F-95D2-989F36036351/data/Containers/Bundle/Application/DB2BC31D-5F1D-42D7-B5A0-4E8CABC63717/LalaTest.app/LalaTest ]
+
+--- !logd purge record
+type  : Special Periodic Compaction
+goal  : 0
+time  : 2018-10-07 12:03:51+0530
+files :
+    - [ Special/0000000000000001.tracev3, 189152, 117384 ]
+done  : 2018-10-07 12:03:52+0530
+
+--- !logd uuid purge records
+time  : 2018-10-07 12:03:53+0530
+uuids :
+    - 6673529B-1085-3F85-9609-26DC78F1F3BA
+    - 3E04390D-2684-351A-A848-1AB361902DD0
+    - 3E54394D-6A4F-35E2-9192-13441CDA9BD1
+    - 5091F4FE-2BBB-32AF-A49D-E36CBE277B2B
+    - 57B16E5D-C088-3170-AEE1-D7F93395E75A
+    - 3BDB1735-2913-315C-BB01-8D4CADABAF0B
+    - 9EEA5C2F-D27C-3497-882F-E4EAB0C63C3C
+    - 9E74B4CF-D6A7-37CE-953D-E2091C60F6C7
+    - 04ECCD78-2EC0-3C83-830E-33468C722185
+    - 04A71A34-F9D9-347F-B1AC-509E65309808
+    - 3565A499-76CB-36A0-8BFF-400387F73E59
+    - 35802FF5-55A8-3C22-9667-404FCDAB0E61
+    - 3C17A57B-091D-30AB-8DC1-8D36ABAFFD1E
+    - 58A0DD59-1B24-31D0-A32D-F59DF7A9A018
+    - 5882ABB9-02DC-3ED3-BB16-4E5EAB925D7B
+    - 0EC1EC75-F35C-3B48-9D2E-E75B2A3517C1
+    - 5FAA5AC6-895B-3C0A-8642-54C6EB9B2F3A
+    - 3366B3D1-3EC7-32CC-BC22-10EA1DA8D5B8
+    - 05BC97CE-26F5-3F57-B572-4BD5AC93B595
+    - A4229D84-1AAE-3962-AA56-2E62BB10747A
+    - A42FC61A-F1A6-3E6F-9EB4-C75626831CCC
+    - B5EF20A2-B8E6-3A57-8E89-BB79FF70164C
+    - B57DF05A-97D0-3030-99E0-D17118123506
+    - B52DC796-6DF2-3F1F-BC18-93F29A2E54D2
+    - B2EB043F-C6C1-3737-BDC1-6BD23A192391
+    - AC2FF485-BCC8-3880-96F3-75285BF8D59B
+    - BB30C88F-15D2-338E-97F5-E78621F8F64E
+    - BBB000A9-D16D-370A-9B7C-A62B06DC5895
+    - BBFE74F5-11E1-3C1E-B24C-9DE27D21EBAD
+    - D0893A8A-42BD-32D2-863E-F40AF0910CD6
+    - D005D549-2518-3E36-9413-04AA8B993D00
+    - D0EC6B12-1500-38E4-BA2A-CB4446BC645A
+    - DA455E07-204E-36A4-994E-4D32040569FC
+    - A570205C-D2EE-3FC8-A122-F642D1BADEDA
+    - D8C914D4-9E83-30CF-9FF0-E5A1C1F49591
+    - E5457EAD-108A-3F25-B678-5285AD0E916C
+    - E2DA2158-5DE4-3874-B13A-D281A07157ED
+    - E2CB088E-4F28-3230-BDA4-4A10A0206D92
+    - F4AB062D-9F65-3F10-BC73-8843AF2F57CB
+    - F4C37FC3-9128-3D40-A137-E46C8CC0BAB6
+    - C7240935-7086-329E-8F0A-908E1C98431E
+    - EEB1932A-A6CD-32A2-A89F-66812DA995EB
+    - F2F50B38-2E40-3268-979D-BE4B9793A905
+    - CFFB08EA-C1B7-3A1E-917B-086CB420FA15
+    - FBDAF590-43BA-3D23-9493-3A0EFD85AE18
+    - EC2F6AF4-5D0A-3C0D-B996-3AA81A09F8A1
+    - 18F41C95-7D5D-3EA1-9944-CE06DA036500
+    - 112DA6A0-C0EA-355F-967B-DA56CCA29B87
+    - 115ED3C2-310A-3EF8-8E04-82CB4DF2D07D
+    - 7D3AE70E-3360-3758-AE8C-3CB58BE111AE
+    - 7C1F69F7-529A-3315-8572-F490E1837A58
+    - 7C1027C8-1FD9-30FC-8BBA-6D5C824461E0
+    - 42D64882-8F2B-3ADA-A67E-323B454A5DAB
+    - 45F8F894-D164-35A1-9670-83BAD80714A0
+    - 8782E717-D8BB-3829-8AAE-3855C4FDDAA0
+    - 1A3F6718-83AF-34B5-9168-F5DDE3F0C7CB
+    - 28F9CDBE-D38F-37C9-8839-CDCCC392DE92
+    - 7B879E6E-7C8A-312D-B84E-3FAFF74F7D55
+    - 8FFC981F-E3FE-3A41-B84A-97D263704CAB
+    - 8848B211-79A4-38F4-92A1-34F7FA064608
+    - 9F403180-A3CD-37C0-B482-301A43761614
+    - 9F7CCF55-8EDF-3827-88C7-1DF96D438A4E
+    - 072DAA28-B1F0-3CD3-9F64-6B4BFA91C787
+    - 38EAD0D7-E2B7-389D-A2C3-89AAF4013541
+    - 38DDD0E1-8724-34AD-A0E1-F973B1D3E8CD
+    - 3887CDC9-A16C-3023-9CBC-9F7EF21D588E
+    - 36B1F284-518D-3065-B730-04D8406B76D1
+    - 361B1DC0-D824-3620-92A4-998780C58B87
+    - 5C633395-CF66-3BE3-B44F-DDF4BEE771B5
+    - 5C8EACAF-1493-3361-846F-D3064B0E2908
+    - 5D9A8D66-F850-34DE-8048-0FA8EB13BB2B
+    - 62F5244F-1668-3033-BDA5-C04D23CDD2F5
+    - 3A8B09C9-76A8-320E-B540-58D4AE5212E4
+    - 3FFCC13B-6E97-3BD6-97EE-791932E42750
+    - 304D0CD0-9D43-3269-8DB6-A186AFC79424
+    - 30F6CED4-9C79-3F45-86EA-C084268723E2
+    - 6D5CC75E-617A-3B25-8FD8-E7D6BAD7BF86
+    - 39FB0BDF-C81A-3886-83AC-2F1B242F8FDD
+    - 6396F3C6-8B37-34C9-834A-EF81B346CC8C
+    - 0FA18F5C-56B3-3D0B-92A4-52B44F275802
+    - 0F661EF0-F890-3001-A7EE-3F533B7A27B0
+    - 0A7D991A-60AC-3CDB-918F-9D3B84111EF6
+    - 90A3368E-EECC-3FC5-9CF7-C6695A741D72
+    - 907E1A47-E905-308D-AED6-53518F3E6BCE
+    - BF61466B-E0B2-337A-AEB8-91FCE003DAFF
+    - D40D858E-B69E-3B32-8D32-5DF9A3DB4647
+    - BA56C4C1-691D-3C4B-A1E3-BCF2857128FC
+    - A737F577-57DA-3508-A1C9-970CC22CCF97
+    - A7B46AC4-5806-37B4-B39A-2A1F445204D6
+    - B88EDCCD-6F51-3FF3-9619-3FCD950D98B0
+    - B8A3E809-6C2E-39E2-92C6-850F630E0448
+    - B65D8AED-ACC3-325E-B845-4EBD8411B939
+    - B0B7A1AD-8D30-3F30-8410-BA26E322B012
+    - B99F941F-86C0-354F-9A55-7C4129A287AC
+    - C325E0CD-7433-34AF-95FE-3A3AE3A41F11
+    - C47083E4-D48E-32B7-8AED-5D514593CC39
+    - C49054E4-13DC-33CF-B932-BEA704CA8226
+    - E1029BE8-8298-3EA8-B36B-7CE3A796E429
+    - E8E6A2A9-D1ED-3B8E-BB1D-9E3FE92D6ABA
+    - FFC96FD4-19D2-3325-A35B-26CD404FC6E0
+    - FF875615-496A-36BB-B51B-B923242BD1C1
+    - C2895EC6-43AD-3A4D-971B-C1A5388CCFB1
+    - F688454A-70FD-3759-A004-FDE0772AB93B
+    - E99FA84E-0070-3EAE-8446-AD613ADDF3BC
+    - CBE5E8CE-305F-3F53-9D78-11DAC74633CD
+    - CB709045-4494-3F4C-8D4C-A8CE90DCA2E1
+    - F8DAD740-8C19-3297-8042-B01EBE8AAFF1
+    - F87DE780-F1E2-3DC1-BD93-50566FBA4596
+    - CEE17B84-267C-3E23-8A3D-41368868ED4E
+    - 2C823CDB-5F84-3050-A638-8AFC14B99C4D
+    - 2DDF9F36-D954-3DB1-8374-81C3AEB863C5
+    - 41E979C4-AE1C-3E0B-B044-B245C96F5E84
+    - 4103D25E-C4A1-326D-879C-3D731025189A
+    - 48C7131A-F5CA-3D0B-A020-E1ABC92FEC21
+    - 70702A23-5C43-3E40-BF65-65325D2E8507
+    - 702F81AD-F2CE-3806-A42A-1A1C57C1D584
+    - 1EA34D8B-23F0-3835-BB4A-39093193815E
+    - 84DB11E1-A380-30A8-8690-89A645CBCC2F
+    - 4AD2D7CA-C1B2-3EB9-B10B-73CEA841618B
+    - 23B6B004-A878-34CA-815E-C5FB7AC7240D
+    - 8D3C988B-DA63-36F4-900F-E071C83665F8
+    - 8D863EE7-65A5-3FE5-81B0-806A795B0BB2
+    - 15AEBF0A-4450-3345-B42B-BCC8B34CB7DD
+    - 85F7E822-1B7D-3E27-85ED-B8CE8BD728F8
+    - 8547AD1B-83FE-31EC-8380-B2246BBFDC07
+    - 760766CD-65FB-37CC-BECD-62ED29E2A79F
+    - 82CB6DC3-3DE3-3D07-B1B6-DBF7AC9F4DE1
+    - 495309FD-C687-39C3-B073-D9ADC323F3E1
+    - 470B53FF-2D19-3F2D-8DEC-7366D9D0BC7B
+    - 47044274-7E1D-3E48-90A4-9AFA220F8A1D
+    - 78C0B7AA-81A2-3968-8683-2F1230E3A843
+    - 78AF3E06-224E-3068-A9B8-E51C751442D1
+    - 8BD5157F-DF08-36CA-84DB-5DDFCD678F8F
+    - 8BEAA160-659D-37EF-9B77-2B1C7668040A
+    - 13C08213-61B5-3E12-AC16-2169704D301E
+    - 7FB27585-93E8-37FE-9BC2-F6D32CE1F410
+    - 7FF35747-515B-31FC-A374-1EEC4041AF06
+    - 8E5EB38F-1C2F-3D0D-A70E-851E2BD253DA
+files_in_use: 990
+files_locked: 1
+files_recent: 30
+
+--- !logd uuid purge records
+time  : 2018-10-08 06:40:23+0530
+uuids :
+    - 7D45708A-530E-34EA-BDE2-D9265A7AE53F
+files_in_use: 1014
+files_locked: 1
+files_recent: 11
+
+--- !logd uuid purge records
+time  : 2018-10-08 18:45:36+0530
+uuids :
+    - 7B2112CF-2DA5-3A2C-AA44-D36E3AA69575
+files_in_use: 1017
+files_locked: 1
+files_recent: 17
+
+--- !logd statistics record
+type  : File Rotate
+file  : Persist/000000000000005b.tracev3
+time  : 2018-10-08 21:28:59+0530
+total : 80208556
+procs :
+    - [   77063605,  96.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/testmanagerd ]
+    - [     507890,   0.6, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/SpringBoard.app/SpringBoard ]
+    - [     445752,   0.6, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/locationd ]
+    - [     323446,   0.4, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/assertiond ]
+    - [     174553,   0.2, /Users/madhan/Library/Developer/CoreSimulator/Devices/D7197192-2E72-406F-95D2-989F36036351/data/Containers/Bundle/Application/28FB710A-1661-4D9E-8225-D9730D739FE8/LalaTest.app/LalaTest ]
+    - [     147079,   0.2, /Users/madhan/Library/Developer/CoreSimulator/Devices/D7197192-2E72-406F-95D2-989F36036351/data/Containers/Bundle/Application/C3D79439-B668-4D20-876D-F9C452C82187/LalaTest.app/LalaTest ]
+    - [     132826,   0.2, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/lsd ]
+    - [     111686,   0.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/ApplePushService.framework/apsd ]
+    - [      77177,   0.1, /Users/madhan/Library/Developer/CoreSimulator/Devices/D7197192-2E72-406F-95D2-989F36036351/data/Containers/Bundle/Application/4FF52CB6-539F-42F2-9604-0BC57A66EA84/LalaTest.app/LalaTest ]
+    - [      73660,   0.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd ]
+    - [      73645,   0.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/installd ]
+    - [      72474,   0.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreServices.framework/XPCServices/lsdiconservice.xpc/lsdiconservice ]
+    - [      64119,   0.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/nsurlsessiond ]
+    - [      61352,   0.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/trustd ]
+    - [      59671,   0.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/UserEventAgent ]
+    - [      48580,   0.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/MobileGestaltHelper ]
+    - [      44995,   0.1, /Users/madhan/Library/Developer/CoreSimulator/Devices/D7197192-2E72-406F-95D2-989F36036351/data/Containers/Bundle/Application/D47D9F0B-34EB-45AB-9FB4-475E88942E6A/LalaTest.app/LalaTest ]
+    - [      44107,   0.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd ]
+    - [      43560,   0.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd ]
+    - [      41568,   0.1, /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Applications/Preferences.app/Preferences ]
+

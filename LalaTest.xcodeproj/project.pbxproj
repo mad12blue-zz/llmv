@@ -1,0 +1,994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22301A3D2150B24D003E863B /* TyphoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22301A3C2150B24D003E863B /* TyphoonView.swift */; };
+		49419FF6CE2FF1B2505B3893 /* Pods_LalaTest_LalaTestProtocolBDDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1609841E1CD2928E5B38AB /* Pods_LalaTest_LalaTestProtocolBDDTests.framework */; };
+		7DDF0FFFB203EAA4E222148B /* Pods_LalaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980BA4C5C5299FD9793789F7 /* Pods_LalaTest.framework */; };
+		9939BD48216776AD00F1D936 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9939BD47216776AD00F1D936 /* Feature.swift */; };
+		9939BD4E216776AD00F1D936 /* LalaTestDeliveryListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9939BD4D216776AD00F1D936 /* LalaTestDeliveryListElements.swift */; };
+		9939BD51216776AD00F1D936 /* _1_LalaTestLaunchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9939BD50216776AD00F1D936 /* _1_LalaTestLaunchTest.swift */; };
+		9939BD5C21678B9700F1D936 /* LalaTestDeliveryListStepDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9939BD5B21678B9700F1D936 /* LalaTestDeliveryListStepDefinitions.swift */; };
+		9939BD8321679E2600F1D936 /* LalaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9939BD8221679E2600F1D936 /* LalaTestUITests.swift */; };
+		997082442168E8DA00388DCE /* LalaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9939BD8221679E2600F1D936 /* LalaTestUITests.swift */; };
+		997082462169F15C00388DCE /* LalaTestDeliveryDetailStepDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997082452169F15C00388DCE /* LalaTestDeliveryDetailStepDefinitions.swift */; };
+		997082482169F18000388DCE /* LalaTestLaunchStepDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997082472169F18000388DCE /* LalaTestLaunchStepDefinitions.swift */; };
+		9970824A2169F3D300388DCE /* _2_LalaTestDeliveryDetailTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997082492169F3D300388DCE /* _2_LalaTestDeliveryDetailTest.swift */; };
+		9970824C2169F6E100388DCE /* LalaTestDeliveryDetailElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9970824B2169F6E100388DCE /* LalaTestDeliveryDetailElements.swift */; };
+		99E95A832167B41D002D3F59 /* _3_LalaTestDeliveryListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E95A822167B41D002D3F59 /* _3_LalaTestDeliveryListTest.swift */; };
+		9F6B1F211EF2BAA600220D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B1F201EF2BAA600220D71 /* AppDelegate.swift */; };
+		9F6B1F281EF2BAA600220D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B1F271EF2BAA600220D71 /* Assets.xcassets */; };
+		9F6B1F2B1EF2BAA600220D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B1F291EF2BAA600220D71 /* LaunchScreen.storyboard */; };
+		9F76586C1EF9609F001067FE /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76586B1EF9609F001067FE /* UIExtension.swift */; };
+		9FC2526D1EF2BBEA00D94DC3 /* LalaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2526C1EF2BBEA00D94DC3 /* LalaApi.swift */; };
+		9FC2526F1EF2BC4F00D94DC3 /* DeliveriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2526E1EF2BC4F00D94DC3 /* DeliveriesViewController.swift */; };
+		9FC252711EF2BC7200D94DC3 /* DeliveryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC252701EF2BC7200D94DC3 /* DeliveryDetailViewController.swift */; };
+		9FC252751EF2C4BE00D94DC3 /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC252741EF2C4BE00D94DC3 /* Delivery.swift */; };
+		9FC295121EF2C58E0032C7D7 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC295111EF2C58E0032C7D7 /* Global.swift */; };
+		9FC295191EF2CA0F0032C7D7 /* LalaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC295181EF2CA0F0032C7D7 /* LalaModel.swift */; };
+		9FC2951B1EF2CBC50032C7D7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2951A1EF2CBC50032C7D7 /* Location.swift */; };
+		9FC2951D1EF2D21F0032C7D7 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2951C1EF2D21F0032C7D7 /* EmptyView.swift */; };
+		9FC295201EF2DCA50032C7D7 /* CollectionTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2951F1EF2DCA50032C7D7 /* CollectionTypeExtension.swift */; };
+		9FD1BB601EF3907E0090DB36 /* DeliveryThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD1BB5F1EF3907E0090DB36 /* DeliveryThumbnailView.swift */; };
+		9FD1BB621EF39BC80090DB36 /* DeliveryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD1BB611EF39BC80090DB36 /* DeliveryCell.swift */; };
+		9FEDE3421EF4FACE002D4581 /* DeliveriesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEDE3411EF4FACE002D4581 /* DeliveriesManager.swift */; };
+		E8B119681EF78049004537AD /* DeliveryMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B119671EF78049004537AD /* DeliveryMapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9939BD56216776AD00F1D936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F6B1F151EF2BAA600220D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F6B1F1C1EF2BAA600220D71;
+			remoteInfo = LalaTest;
+		};
+		9939BD8521679E2700F1D936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F6B1F151EF2BAA600220D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F6B1F1C1EF2BAA600220D71;
+			remoteInfo = LalaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22301A3C2150B24D003E863B /* TyphoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyphoonView.swift; sourceTree = "<group>"; };
+		25D092833B1BB9A5D1175CD4 /* Pods-LalaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LalaTest/Pods-LalaTest.release.xcconfig"; sourceTree = "<group>"; };
+		3327448886E509B9B606A2F1 /* Pods-UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITests/Pods-UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48EC36C79BBBEA2351CAF93A /* Pods-LalaTest-LalaTestProtocolBDDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaTest-LalaTestProtocolBDDTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LalaTest-LalaTestProtocolBDDTests/Pods-LalaTest-LalaTestProtocolBDDTests.release.xcconfig"; sourceTree = "<group>"; };
+		69E979DDFABEB044E0911B91 /* Pods_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1609841E1CD2928E5B38AB /* Pods_LalaTest_LalaTestProtocolBDDTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LalaTest_LalaTestProtocolBDDTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EA3A747CD3C87BE508B312 /* Pods-LalaTest-LalaTestProtocolBDDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaTest-LalaTestProtocolBDDTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LalaTest-LalaTestProtocolBDDTests/Pods-LalaTest-LalaTestProtocolBDDTests.debug.xcconfig"; sourceTree = "<group>"; };
+		980BA4C5C5299FD9793789F7 /* Pods_LalaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LalaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9939BD42216776AD00F1D936 /* LalaTestProtocolBDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LalaTestProtocolBDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9939BD47216776AD00F1D936 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		9939BD4D216776AD00F1D936 /* LalaTestDeliveryListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalaTestDeliveryListElements.swift; sourceTree = "<group>"; };
+		9939BD50216776AD00F1D936 /* _1_LalaTestLaunchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_LalaTestLaunchTest.swift; sourceTree = "<group>"; };
+		9939BD55216776AD00F1D936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9939BD5B21678B9700F1D936 /* LalaTestDeliveryListStepDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalaTestDeliveryListStepDefinitions.swift; sourceTree = "<group>"; };
+		9939BD8021679E2600F1D936 /* LalaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LalaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9939BD8221679E2600F1D936 /* LalaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalaTestUITests.swift; sourceTree = "<group>"; };
+		9939BD8421679E2700F1D936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997082452169F15C00388DCE /* LalaTestDeliveryDetailStepDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalaTestDeliveryDetailStepDefinitions.swift; sourceTree = "<group>"; };
+		997082472169F18000388DCE /* LalaTestLaunchStepDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalaTestLaunchStepDefinitions.swift; sourceTree = "<group>"; };
+		997082492169F3D300388DCE /* _2_LalaTestDeliveryDetailTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2_LalaTestDeliveryDetailTest.swift; sourceTree = "<group>"; };
+		9970824B2169F6E100388DCE /* LalaTestDeliveryDetailElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalaTestDeliveryDetailElements.swift; sourceTree = "<group>"; };
+		9970824F216B0A8C00388DCE /* MongKok.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MongKok.gpx; sourceTree = "<group>"; };
+		99E95A822167B41D002D3F59 /* _3_LalaTestDeliveryListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3_LalaTestDeliveryListTest.swift; sourceTree = "<group>"; };
+		9F5D53361EF8D0A20071A85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F6B1F1D1EF2BAA600220D71 /* LalaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LalaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6B1F201EF2BAA600220D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F6B1F271EF2BAA600220D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F6B1F2C1EF2BAA600220D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F76586B1EF9609F001067FE /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		9FC2526C1EF2BBEA00D94DC3 /* LalaApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LalaApi.swift; sourceTree = "<group>"; };
+		9FC2526E1EF2BC4F00D94DC3 /* DeliveriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveriesViewController.swift; sourceTree = "<group>"; };
+		9FC252701EF2BC7200D94DC3 /* DeliveryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryDetailViewController.swift; sourceTree = "<group>"; };
+		9FC252741EF2C4BE00D94DC3 /* Delivery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delivery.swift; sourceTree = "<group>"; };
+		9FC295111EF2C58E0032C7D7 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		9FC295181EF2CA0F0032C7D7 /* LalaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LalaModel.swift; sourceTree = "<group>"; };
+		9FC2951A1EF2CBC50032C7D7 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		9FC2951C1EF2D21F0032C7D7 /* EmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		9FC2951F1EF2DCA50032C7D7 /* CollectionTypeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTypeExtension.swift; sourceTree = "<group>"; };
+		9FD1BB5F1EF3907E0090DB36 /* DeliveryThumbnailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryThumbnailView.swift; sourceTree = "<group>"; };
+		9FD1BB611EF39BC80090DB36 /* DeliveryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryCell.swift; sourceTree = "<group>"; };
+		9FEDE3411EF4FACE002D4581 /* DeliveriesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveriesManager.swift; sourceTree = "<group>"; };
+		A4E6B41016377E09113E2E1E /* Pods-LalaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LalaTest/Pods-LalaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DB339DA1924B7F75BE0B1059 /* Pods-UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITests/Pods-UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8B119671EF78049004537AD /* DeliveryMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryMapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9939BD3C216776AD00F1D936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49419FF6CE2FF1B2505B3893 /* Pods_LalaTest_LalaTestProtocolBDDTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9939BD3F216776AD00F1D936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9939BD7D21679E2600F1D936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6B1F1A1EF2BAA600220D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDF0FFFB203EAA4E222148B /* Pods_LalaTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E58B3AF11FF6C866A0FFE4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4E6B41016377E09113E2E1E /* Pods-LalaTest.debug.xcconfig */,
+				25D092833B1BB9A5D1175CD4 /* Pods-LalaTest.release.xcconfig */,
+				3327448886E509B9B606A2F1 /* Pods-UITests.debug.xcconfig */,
+				DB339DA1924B7F75BE0B1059 /* Pods-UITests.release.xcconfig */,
+				75EA3A747CD3C87BE508B312 /* Pods-LalaTest-LalaTestProtocolBDDTests.debug.xcconfig */,
+				48EC36C79BBBEA2351CAF93A /* Pods-LalaTest-LalaTestProtocolBDDTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7FA2E2C6965D5282380BE5EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				980BA4C5C5299FD9793789F7 /* Pods_LalaTest.framework */,
+				69E979DDFABEB044E0911B91 /* Pods_UITests.framework */,
+				6B1609841E1CD2928E5B38AB /* Pods_LalaTest_LalaTestProtocolBDDTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9939BD43216776AD00F1D936 /* LalaTestProtocolBDDTests */ = {
+			isa = PBXGroup;
+			children = (
+				9970824F216B0A8C00388DCE /* MongKok.gpx */,
+				9939BD55216776AD00F1D936 /* Info.plist */,
+				9939BD46216776AD00F1D936 /* Features */,
+				9939BD4C216776AD00F1D936 /* XCUIElemens */,
+				9939BD49216776AD00F1D936 /* StepDefinitions */,
+				9939BD4F216776AD00F1D936 /* Tests */,
+			);
+			path = LalaTestProtocolBDDTests;
+			sourceTree = "<group>";
+		};
+		9939BD46216776AD00F1D936 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9939BD47216776AD00F1D936 /* Feature.swift */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		9939BD49216776AD00F1D936 /* StepDefinitions */ = {
+			isa = PBXGroup;
+			children = (
+				9939BD5B21678B9700F1D936 /* LalaTestDeliveryListStepDefinitions.swift */,
+				997082452169F15C00388DCE /* LalaTestDeliveryDetailStepDefinitions.swift */,
+				997082472169F18000388DCE /* LalaTestLaunchStepDefinitions.swift */,
+			);
+			name = StepDefinitions;
+			sourceTree = "<group>";
+		};
+		9939BD4C216776AD00F1D936 /* XCUIElemens */ = {
+			isa = PBXGroup;
+			children = (
+				9939BD4D216776AD00F1D936 /* LalaTestDeliveryListElements.swift */,
+				9970824B2169F6E100388DCE /* LalaTestDeliveryDetailElements.swift */,
+			);
+			name = XCUIElemens;
+			sourceTree = "<group>";
+		};
+		9939BD4F216776AD00F1D936 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9939BD50216776AD00F1D936 /* _1_LalaTestLaunchTest.swift */,
+				997082492169F3D300388DCE /* _2_LalaTestDeliveryDetailTest.swift */,
+				99E95A822167B41D002D3F59 /* _3_LalaTestDeliveryListTest.swift */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		9939BD8121679E2600F1D936 /* LalaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9939BD8221679E2600F1D936 /* LalaTestUITests.swift */,
+				9939BD8421679E2700F1D936 /* Info.plist */,
+			);
+			path = LalaTestUITests;
+			sourceTree = "<group>";
+		};
+		9F6B1F141EF2BAA600220D71 = {
+			isa = PBXGroup;
+			children = (
+				9F6B1F1F1EF2BAA600220D71 /* LalaTest */,
+				9939BD8121679E2600F1D936 /* LalaTestUITests */,
+				9939BD43216776AD00F1D936 /* LalaTestProtocolBDDTests */,
+				9F6B1F1E1EF2BAA600220D71 /* Products */,
+				5E58B3AF11FF6C866A0FFE4D /* Pods */,
+				7FA2E2C6965D5282380BE5EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F6B1F1E1EF2BAA600220D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B1F1D1EF2BAA600220D71 /* LalaTest.app */,
+				9939BD42216776AD00F1D936 /* LalaTestProtocolBDDTests.xctest */,
+				9939BD8021679E2600F1D936 /* LalaTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F6B1F1F1EF2BAA600220D71 /* LalaTest */ = {
+			isa = PBXGroup;
+			children = (
+				9FC295141EF2C76C0032C7D7 /* Resources */,
+				9FC295131EF2C74A0032C7D7 /* Common */,
+				9FC295151EF2C7910032C7D7 /* Api */,
+				9FC295161EF2C7BB0032C7D7 /* DataModel */,
+				9FEDE3431EF4FADE002D4581 /* DataManager */,
+				9FC295171EF2C7CB0032C7D7 /* ViewControllers */,
+				9FC2951E1EF2D4B40032C7D7 /* Components */,
+			);
+			path = LalaTest;
+			sourceTree = "<group>";
+		};
+		9FC295131EF2C74A0032C7D7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B1F201EF2BAA600220D71 /* AppDelegate.swift */,
+				9FC295111EF2C58E0032C7D7 /* Global.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		9FC295141EF2C76C0032C7D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B1F271EF2BAA600220D71 /* Assets.xcassets */,
+				9F6B1F291EF2BAA600220D71 /* LaunchScreen.storyboard */,
+				9F6B1F2C1EF2BAA600220D71 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9FC295151EF2C7910032C7D7 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				9FC2526C1EF2BBEA00D94DC3 /* LalaApi.swift */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		9FC295161EF2C7BB0032C7D7 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				9FC295181EF2CA0F0032C7D7 /* LalaModel.swift */,
+				9FC252741EF2C4BE00D94DC3 /* Delivery.swift */,
+				9FC2951A1EF2CBC50032C7D7 /* Location.swift */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		9FC295171EF2C7CB0032C7D7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FC2526E1EF2BC4F00D94DC3 /* DeliveriesViewController.swift */,
+				9FC252701EF2BC7200D94DC3 /* DeliveryDetailViewController.swift */,
+				9FEDE33C1EF4A84C002D4581 /* Views */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9FC2951E1EF2D4B40032C7D7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9FC2951C1EF2D21F0032C7D7 /* EmptyView.swift */,
+				9FC2951F1EF2DCA50032C7D7 /* CollectionTypeExtension.swift */,
+				9F76586B1EF9609F001067FE /* UIExtension.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		9FEDE33C1EF4A84C002D4581 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FD1BB611EF39BC80090DB36 /* DeliveryCell.swift */,
+				9FD1BB5F1EF3907E0090DB36 /* DeliveryThumbnailView.swift */,
+				E8B119671EF78049004537AD /* DeliveryMapView.swift */,
+				22301A3C2150B24D003E863B /* TyphoonView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9FEDE3431EF4FADE002D4581 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				9FEDE3411EF4FACE002D4581 /* DeliveriesManager.swift */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9939BD41216776AD00F1D936 /* LalaTestProtocolBDDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9939BD5A216776AD00F1D936 /* Build configuration list for PBXNativeTarget "LalaTestProtocolBDDTests" */;
+			buildPhases = (
+				604B8CB0BCCE5093E1CD967F /* [CP] Check Pods Manifest.lock */,
+				9939BD3B216776AD00F1D936 /* Sources */,
+				9939BD3C216776AD00F1D936 /* Frameworks */,
+				9939BD3D216776AD00F1D936 /* Resources */,
+				9939BD3E216776AD00F1D936 /* Sources */,
+				9939BD3F216776AD00F1D936 /* Frameworks */,
+				9939BD40216776AD00F1D936 /* Resources */,
+				FBA9F12C6DD97B102500CD85 /* [CP] Embed Pods Frameworks */,
+				276EA5909FA451F38D874DA8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9939BD57216776AD00F1D936 /* PBXTargetDependency */,
+			);
+			name = LalaTestProtocolBDDTests;
+			productName = LalaTestProtocolBDDTests;
+			productReference = 9939BD42216776AD00F1D936 /* LalaTestProtocolBDDTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9939BD7F21679E2600F1D936 /* LalaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9939BD8721679E2700F1D936 /* Build configuration list for PBXNativeTarget "LalaTestUITests" */;
+			buildPhases = (
+				9939BD7C21679E2600F1D936 /* Sources */,
+				9939BD7D21679E2600F1D936 /* Frameworks */,
+				9939BD7E21679E2600F1D936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9939BD8621679E2700F1D936 /* PBXTargetDependency */,
+			);
+			name = LalaTestUITests;
+			productName = LalaTestUITests;
+			productReference = 9939BD8021679E2600F1D936 /* LalaTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9F6B1F1C1EF2BAA600220D71 /* LalaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6B1F2F1EF2BAA600220D71 /* Build configuration list for PBXNativeTarget "LalaTest" */;
+			buildPhases = (
+				97AC1C40B4C88EC2BC72CB56 /* [CP] Check Pods Manifest.lock */,
+				9F6B1F191EF2BAA600220D71 /* Sources */,
+				9F6B1F1A1EF2BAA600220D71 /* Frameworks */,
+				9F6B1F1B1EF2BAA600220D71 /* Resources */,
+				27CDA30DD9283156A383ECD8 /* [CP] Embed Pods Frameworks */,
+				28CABF3BF595C40DE764385A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LalaTest;
+			productName = LalaTest;
+			productReference = 9F6B1F1D1EF2BAA600220D71 /* LalaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F6B1F151EF2BAA600220D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Kenneth;
+				TargetAttributes = {
+					9939BD41216776AD00F1D936 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Manual;
+						TestTargetID = 9F6B1F1C1EF2BAA600220D71;
+					};
+					9939BD7F21679E2600F1D936 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F6B1F1C1EF2BAA600220D71;
+					};
+					9F6B1F1C1EF2BAA600220D71 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9F6B1F181EF2BAA600220D71 /* Build configuration list for PBXProject "LalaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F6B1F141EF2BAA600220D71;
+			productRefGroup = 9F6B1F1E1EF2BAA600220D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F6B1F1C1EF2BAA600220D71 /* LalaTest */,
+				9939BD41216776AD00F1D936 /* LalaTestProtocolBDDTests */,
+				9939BD7F21679E2600F1D936 /* LalaTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9939BD3D216776AD00F1D936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9939BD40216776AD00F1D936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9939BD7E21679E2600F1D936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6B1F1B1EF2BAA600220D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6B1F2B1EF2BAA600220D71 /* LaunchScreen.storyboard in Resources */,
+				9F6B1F281EF2BAA600220D71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		276EA5909FA451F38D874DA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LalaTest-LalaTestProtocolBDDTests/Pods-LalaTest-LalaTestProtocolBDDTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LalaTest-LalaTestProtocolBDDTests/Pods-LalaTest-LalaTestProtocolBDDTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27CDA30DD9283156A383ECD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LalaTest/Pods-LalaTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LalaTest/Pods-LalaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28CABF3BF595C40DE764385A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LalaTest/Pods-LalaTest-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LalaTest/Pods-LalaTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		604B8CB0BCCE5093E1CD967F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LalaTest-LalaTestProtocolBDDTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97AC1C40B4C88EC2BC72CB56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LalaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA9F12C6DD97B102500CD85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LalaTest-LalaTestProtocolBDDTests/Pods-LalaTest-LalaTestProtocolBDDTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Cucumberish/Cucumberish.framework",
+				"${BUILT_PRODUCTS_DIR}/XCFit/XCFit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cucumberish.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCFit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LalaTest-LalaTestProtocolBDDTests/Pods-LalaTest-LalaTestProtocolBDDTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9939BD3B216776AD00F1D936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9939BD5C21678B9700F1D936 /* LalaTestDeliveryListStepDefinitions.swift in Sources */,
+				997082462169F15C00388DCE /* LalaTestDeliveryDetailStepDefinitions.swift in Sources */,
+				997082442168E8DA00388DCE /* LalaTestUITests.swift in Sources */,
+				997082482169F18000388DCE /* LalaTestLaunchStepDefinitions.swift in Sources */,
+				9939BD4E216776AD00F1D936 /* LalaTestDeliveryListElements.swift in Sources */,
+				9970824C2169F6E100388DCE /* LalaTestDeliveryDetailElements.swift in Sources */,
+				9939BD48216776AD00F1D936 /* Feature.swift in Sources */,
+				99E95A832167B41D002D3F59 /* _3_LalaTestDeliveryListTest.swift in Sources */,
+				9970824A2169F3D300388DCE /* _2_LalaTestDeliveryDetailTest.swift in Sources */,
+				9939BD51216776AD00F1D936 /* _1_LalaTestLaunchTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9939BD3E216776AD00F1D936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9939BD7C21679E2600F1D936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9939BD8321679E2600F1D936 /* LalaTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6B1F191EF2BAA600220D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD1BB601EF3907E0090DB36 /* DeliveryThumbnailView.swift in Sources */,
+				E8B119681EF78049004537AD /* DeliveryMapView.swift in Sources */,
+				9F76586C1EF9609F001067FE /* UIExtension.swift in Sources */,
+				9FC2526F1EF2BC4F00D94DC3 /* DeliveriesViewController.swift in Sources */,
+				9FC2951D1EF2D21F0032C7D7 /* EmptyView.swift in Sources */,
+				9FC252751EF2C4BE00D94DC3 /* Delivery.swift in Sources */,
+				9FC252711EF2BC7200D94DC3 /* DeliveryDetailViewController.swift in Sources */,
+				9FC2951B1EF2CBC50032C7D7 /* Location.swift in Sources */,
+				22301A3D2150B24D003E863B /* TyphoonView.swift in Sources */,
+				9FC295201EF2DCA50032C7D7 /* CollectionTypeExtension.swift in Sources */,
+				9F6B1F211EF2BAA600220D71 /* AppDelegate.swift in Sources */,
+				9FEDE3421EF4FACE002D4581 /* DeliveriesManager.swift in Sources */,
+				9FC295191EF2CA0F0032C7D7 /* LalaModel.swift in Sources */,
+				9FD1BB621EF39BC80090DB36 /* DeliveryCell.swift in Sources */,
+				9FC2526D1EF2BBEA00D94DC3 /* LalaApi.swift in Sources */,
+				9FC295121EF2C58E0032C7D7 /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9939BD57216776AD00F1D936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F6B1F1C1EF2BAA600220D71 /* LalaTest */;
+			targetProxy = 9939BD56216776AD00F1D936 /* PBXContainerItemProxy */;
+		};
+		9939BD8621679E2700F1D936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F6B1F1C1EF2BAA600220D71 /* LalaTest */;
+			targetProxy = 9939BD8521679E2700F1D936 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F6B1F291EF2BAA600220D71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F5D53361EF8D0A20071A85F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9939BD58216776AD00F1D936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EA3A747CD3C87BE508B312 /* Pods-LalaTest-LalaTestProtocolBDDTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LalaTestProtocolBDDTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.LalaTestProtocolBDDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SRC_ROOT = "@\\\"$(SRCROOT)\\\"";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LalaTest;
+			};
+			name = Debug;
+		};
+		9939BD59216776AD00F1D936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EC36C79BBBEA2351CAF93A /* Pods-LalaTest-LalaTestProtocolBDDTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LalaTestProtocolBDDTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.LalaTestProtocolBDDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LalaTest;
+			};
+			name = Release;
+		};
+		9939BD8821679E2700F1D936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LalaTestUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.LalaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LalaTest;
+			};
+			name = Debug;
+		};
+		9939BD8921679E2700F1D936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LalaTestUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.LalaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LalaTest;
+			};
+			name = Release;
+		};
+		9F6B1F2D1EF2BAA600220D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F6B1F2E1EF2BAA600220D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F6B1F301EF2BAA600220D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E6B41016377E09113E2E1E /* Pods-LalaTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LalaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalamove.challenge.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		9F6B1F311EF2BAA600220D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D092833B1BB9A5D1175CD4 /* Pods-LalaTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LalaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalamove.challenge.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9939BD5A216776AD00F1D936 /* Build configuration list for PBXNativeTarget "LalaTestProtocolBDDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9939BD58216776AD00F1D936 /* Debug */,
+				9939BD59216776AD00F1D936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9939BD8721679E2700F1D936 /* Build configuration list for PBXNativeTarget "LalaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9939BD8821679E2700F1D936 /* Debug */,
+				9939BD8921679E2700F1D936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6B1F181EF2BAA600220D71 /* Build configuration list for PBXProject "LalaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6B1F2D1EF2BAA600220D71 /* Debug */,
+				9F6B1F2E1EF2BAA600220D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6B1F2F1EF2BAA600220D71 /* Build configuration list for PBXNativeTarget "LalaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6B1F301EF2BAA600220D71 /* Debug */,
+				9F6B1F311EF2BAA600220D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F6B1F151EF2BAA600220D71 /* Project object */;
+}

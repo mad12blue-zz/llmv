@@ -1,0 +1,349 @@
+objc[25151]: Class AXAccessQueue is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities (0x1222cf780) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AXHearingSupport.framework/AXHearingSupport (0x124ec3888). One of the two will be used. Which one is undefined.
+objc[25151]: Class AXAccessQueueTimer is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities (0x1222ccd50) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AXHearingSupport.framework/AXHearingSupport (0x124ec38d8). One of the two will be used. Which one is undefined.
+2018-10-08 22:31:56.465029+0530 LalaTestProtocolBDDTests-Runner[25151:3785472] [AXMediaCommon] Unable to look up screen scale
+2018-10-08 22:31:56.465573+0530 LalaTestProtocolBDDTests-Runner[25151:3785472] [AXMediaCommon] Unexpected physical screen orientation
+2018-10-08 22:31:56.524485+0530 LalaTestProtocolBDDTests-Runner[25151:3785472] [AXMediaCommon] Unable to look up screen scale
+2018-10-08 22:31:56.529322+0530 LalaTestProtocolBDDTests-Runner[25151:3785472] [AXMediaCommon] Unable to look up screen scale
+2018-10-08 22:31:56.529566+0530 LalaTestProtocolBDDTests-Runner[25151:3785472] [AXMediaCommon] Unexpected physical screen orientation
+2018-10-08 22:31:56.542717+0530 LalaTestProtocolBDDTests-Runner[25151:3785472] +[CATransaction synchronize] called within transaction
+2018-10-08 22:31:56.565472+0530 LalaTestProtocolBDDTests-Runner[25151:3785472] Running tests...
+W1008 22:31:56.754221       1 commandlineflags.cc:1503] Ignoring RegisterValidateFunction() for flag pointer 0x128dd5740: no flag found at that address
+Test Suite 'Selected tests' started at 2018-10-08 22:31:58.325
+Test Suite 'XCFit.framework' started at 2018-10-08 22:31:58.326
+Test Suite 'XCFit.framework' passed at 2018-10-08 22:31:58.326.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
+Test Suite 'LalaTestProtocolBDDTests.xctest' started at 2018-10-08 22:31:58.327
+Test Suite '_1_LalaTestLaunchTest' started at 2018-10-08 22:31:58.327
+Test Case '-[LalaTestProtocolBDDTests._1_LalaTestLaunchTest test_1_LalaTestAppIsRunning]' started.
+    t =     0.00s Start Test at 2018-10-08 22:31:58.329
+    t =     0.06s Set Up
+    t =     0.08s Open com.lalamove.challenge.qa
+    t =     0.12s     Launch com.lalamove.challenge.qa
+    t =     3.41s         Wait for accessibility to load
+    t =     5.48s         Wait for com.lalamove.challenge.qa to idle
+    t =     6.53s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     7.59s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     7.63s Waiting 10.0s for "DeliveriesTableView" Table to exist
+    t =     8.65s     Checking `Expect predicate `exists == 1` for object "DeliveriesTableView" Table`
+    t =     8.67s Waiting 10.0s for Cell to exist
+    t =     9.68s     Checking `Expect predicate `exists == 1` for object Cell`
+    t =    10.05s Terminate com.lalamove.challenge.qa:25266
+    t =    11.22s Tear Down
+Test Case '-[LalaTestProtocolBDDTests._1_LalaTestLaunchTest test_1_LalaTestAppIsRunning]' passed (11.221 seconds).
+Test Suite '_1_LalaTestLaunchTest' passed at 2018-10-08 22:32:09.549.
+	 Executed 1 test, with 0 failures (0 unexpected) in 11.221 (11.222) seconds
+Test Suite '_2_LalaTestDeliveryDetailTest' started at 2018-10-08 22:32:09.550
+Test Case '-[LalaTestProtocolBDDTests._2_LalaTestDeliveryDetailTest test_1_NavigateToDeliveryDetails]' started.
+    t =     0.00s Start Test at 2018-10-08 22:32:09.551
+    t =     0.04s Set Up
+    t =     0.04s     Open com.lalamove.challenge.qa
+    t =     0.10s         Launch com.lalamove.challenge.qa
+    t =     4.19s             Wait for com.lalamove.challenge.qa to idle
+    t =     5.94s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     6.95s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     6.98s Find the "DeliveryCellTitle" StaticText
+    t =     8.00s     Find the "DeliveryCellTitle" StaticText (retry 1)
+    t =     8.12s Find the "DeliveryCellSubtitle" StaticText
+    t =     8.19s Tap Cell
+    t =     8.19s     Wait for com.lalamove.challenge.qa to idle
+    t =     8.25s     Find the Cell
+    t =     8.32s         Check for interrupting elements affecting Cell
+    t =     8.32s     Synthesize event
+    t =     8.47s     Wait for com.lalamove.challenge.qa to idle
+    t =     8.93s Waiting 10.0s for "Delivery Detail" NavigationBar to exist
+    t =    10.00s     Checking `Expect predicate `exists == 1` for object "Delivery Detail" NavigationBar`
+    t =    10.52s Waiting 10.0s for "Back" Button to exist
+    t =    11.55s     Checking `Expect predicate `exists == 1` for object "Back" Button`
+    t =    11.95s Find the "DeliveryCellTitle" StaticText
+    t =    12.30s Find the "DeliveryCellSubtitle" StaticText
+    t =    12.33s Tear Down
+    t =    12.33s     Terminate com.lalamove.challenge.qa:25795
+Test Case '-[LalaTestProtocolBDDTests._2_LalaTestDeliveryDetailTest test_1_NavigateToDeliveryDetails]' passed (13.465 seconds).
+Test Case '-[LalaTestProtocolBDDTests._2_LalaTestDeliveryDetailTest test_2_NavigateBackToDeliveryListFromDeliveryDetails]' started.
+    t =     0.00s Start Test at 2018-10-08 22:32:23.016
+    t =     0.06s Set Up
+    t =     0.06s     Open com.lalamove.challenge.qa
+    t =     0.12s         Launch com.lalamove.challenge.qa
+    t =     2.96s             Wait for accessibility to load
+    t =     3.72s             Wait for com.lalamove.challenge.qa to idle
+    t =     5.29s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     6.30s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     6.34s Find the "DeliveryCellTitle" StaticText
+    t =     7.36s     Find the "DeliveryCellTitle" StaticText (retry 1)
+    t =     7.46s Find the "DeliveryCellSubtitle" StaticText
+    t =     7.52s Tap Cell
+    t =     7.52s     Wait for com.lalamove.challenge.qa to idle
+    t =     7.58s     Find the Cell
+    t =     7.64s         Check for interrupting elements affecting Cell
+    t =     7.64s     Synthesize event
+    t =     7.79s     Wait for com.lalamove.challenge.qa to idle
+    t =     8.19s Waiting 10.0s for "Delivery Detail" NavigationBar to exist
+    t =     9.30s     Checking `Expect predicate `exists == 1` for object "Delivery Detail" NavigationBar`
+    t =     9.52s Waiting 10.0s for "Back" Button to exist
+    t =    10.53s     Checking `Expect predicate `exists == 1` for object "Back" Button`
+    t =    10.55s Tap "Back" Button
+    t =    10.55s     Wait for com.lalamove.challenge.qa to idle
+    t =    10.59s     Find the "Back" Button
+    t =    10.62s         Check for interrupting elements affecting "Back" Button
+    t =    10.62s     Synthesize event
+    t =    10.72s     Wait for com.lalamove.challenge.qa to idle
+    t =    11.25s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =    12.25s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =    12.31s Waiting 10.0s for "DeliveriesTableView" Table to exist
+    t =    13.31s     Checking `Expect predicate `exists == 1` for object "DeliveriesTableView" Table`
+    t =    13.38s Waiting 10.0s for Cell to exist
+    t =    14.38s     Checking `Expect predicate `exists == 1` for object Cell`
+    t =    14.43s Tear Down
+    t =    14.44s     Terminate com.lalamove.challenge.qa:25807
+Test Case '-[LalaTestProtocolBDDTests._2_LalaTestDeliveryDetailTest test_2_NavigateBackToDeliveryListFromDeliveryDetails]' passed (15.563 seconds).
+Test Case '-[LalaTestProtocolBDDTests._2_LalaTestDeliveryDetailTest test_3_MapInDetailView]' started.
+    t =     0.00s Start Test at 2018-10-08 22:32:38.579
+    t =     0.05s Set Up
+    t =     0.05s     Open com.lalamove.challenge.qa
+    t =     0.10s         Launch com.lalamove.challenge.qa
+    t =     2.96s             Wait for accessibility to load
+    t =     3.63s             Wait for com.lalamove.challenge.qa to idle
+    t =     5.14s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     6.15s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     6.18s Find the "DeliveryCellTitle" StaticText
+    t =     7.20s     Find the "DeliveryCellTitle" StaticText (retry 1)
+    t =     8.22s     Find the "DeliveryCellTitle" StaticText (retry 2)
+    t =     8.32s Find the "DeliveryCellSubtitle" StaticText
+    t =     8.37s Tap Cell
+    t =     8.37s     Wait for com.lalamove.challenge.qa to idle
+    t =     8.44s     Find the Cell
+    t =     8.50s         Check for interrupting elements affecting Cell
+    t =     8.50s     Synthesize event
+    t =     8.63s     Wait for com.lalamove.challenge.qa to idle
+    t =     8.99s Waiting 10.0s for "Delivery Detail" NavigationBar to exist
+    t =    10.01s     Checking `Expect predicate `exists == 1` for object "Delivery Detail" NavigationBar`
+    t =    10.20s Waiting 10.0s for "Back" Button to exist
+    t =    11.22s     Checking `Expect predicate `exists == 1` for object "Back" Button`
+    t =    11.55s Waiting 10.0s for Other to exist
+    t =    12.58s     Checking `Expect predicate `exists == 1` for object Other`
+    t =    12.61s Find the Other
+    t =    12.63s Find the Other at {{0.0, 88.0}, {375.0, 724.0}}
+    t =    12.66s Tear Down
+    t =    12.66s     Terminate com.lalamove.challenge.qa:25817
+Test Case '-[LalaTestProtocolBDDTests._2_LalaTestDeliveryDetailTest test_3_MapInDetailView]' passed (13.738 seconds).
+Test Case '-[LalaTestProtocolBDDTests._2_LalaTestDeliveryDetailTest test_4_NavigateToDeliveryDetailsOf14thItem]' started.
+    t =     0.00s Start Test at 2018-10-08 22:32:52.318
+    t =     0.05s Set Up
+    t =     0.05s     Open com.lalamove.challenge.qa
+    t =     0.11s         Launch com.lalamove.challenge.qa
+    t =     3.23s             Wait for com.lalamove.challenge.qa to idle
+    t =     4.92s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     5.94s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     6.05s Find the "DeliveryCellTitle" StaticText
+    t =     6.12s Find the "DeliveryCellSubtitle" StaticText
+    t =     6.17s Tap Cell
+    t =     6.17s     Wait for com.lalamove.challenge.qa to idle
+    t =     6.26s     Find the Cell
+    t =     6.32s         Check for interrupting elements affecting Cell
+    t =     6.32s     Synthesize event
+    t =     6.40s         Scroll element to visible
+    t =     6.42s         Find the Cell
+    t =     6.58s     Wait for com.lalamove.challenge.qa to idle
+    t =     7.02s Waiting 10.0s for StaticText to exist
+    t =     8.03s     Checking `Expect predicate `exists == 1` for object StaticText`
+    t =     8.27s Tear Down
+    t =     8.27s     Terminate com.lalamove.challenge.qa:25825
+Test Case '-[LalaTestProtocolBDDTests._2_LalaTestDeliveryDetailTest test_4_NavigateToDeliveryDetailsOf14thItem]' passed (9.400 seconds).
+Test Suite '_2_LalaTestDeliveryDetailTest' passed at 2018-10-08 22:33:01.719.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 52.166 (52.169) seconds
+Test Suite '_3_LalaTestDeliveryListTest' started at 2018-10-08 22:33:01.720
+Test Case '-[LalaTestProtocolBDDTests._3_LalaTestDeliveryListTest test_1_ItemsOnDeliveryListOnLoad]' started.
+    t =     0.00s Start Test at 2018-10-08 22:33:01.720
+    t =     0.05s Set Up
+    t =     0.05s     Open com.lalamove.challenge.qa
+    t =     0.10s         Launch com.lalamove.challenge.qa
+    t =     2.77s             Wait for accessibility to load
+    t =     3.14s             Wait for com.lalamove.challenge.qa to idle
+    t =     4.79s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     5.79s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     5.83s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     6.84s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     6.86s Waiting 10.0s for "DeliveriesTableView" Table to exist
+    t =     7.88s     Checking `Expect predicate `exists == 1` for object "DeliveriesTableView" Table`
+    t =     7.90s Waiting 10.0s for Cell to exist
+    t =     8.90s     Checking `Expect predicate `exists == 1` for object Cell`
+    t =     8.99s Get number of matches for: Children matching type Cell
+    t =     9.12s Tear Down
+    t =     9.12s     Terminate com.lalamove.challenge.qa:25835
+Test Case '-[LalaTestProtocolBDDTests._3_LalaTestDeliveryListTest test_1_ItemsOnDeliveryListOnLoad]' passed (10.216 seconds).
+Test Case '-[LalaTestProtocolBDDTests._3_LalaTestDeliveryListTest test_2_IconDescriptionLocationOfDeliveryItems]' started.
+    t =     0.00s Start Test at 2018-10-08 22:33:11.937
+    t =     0.05s Set Up
+    t =     0.05s     Open com.lalamove.challenge.qa
+    t =     0.10s         Launch com.lalamove.challenge.qa
+    t =     3.47s             Wait for com.lalamove.challenge.qa to idle
+    t =     5.04s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     6.06s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     6.09s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     7.09s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     7.18s Waiting 10.0s for "DeliveriesTableView" Table to exist
+    t =     8.20s     Checking `Expect predicate `exists == 1` for object "DeliveriesTableView" Table`
+    t =     8.25s Waiting 10.0s for Cell to exist
+    t =     9.28s     Checking `Expect predicate `exists == 1` for object Cell`
+    t =     9.39s Waiting 10.0s for "DeliveryCellPhoto" Image to exist
+    t =    10.41s     Checking `Expect predicate `exists == 1` for object "DeliveryCellPhoto" Image`
+    t =    10.46s Waiting 10.0s for "DeliveryCellTitle" StaticText to exist
+    t =    11.48s     Checking `Expect predicate `exists == 1` for object "DeliveryCellTitle" StaticText`
+    t =    11.53s Waiting 10.0s for "DeliveryCellSubtitle" StaticText to exist
+    t =    12.56s     Checking `Expect predicate `exists == 1` for object "DeliveryCellSubtitle" StaticText`
+    t =    12.60s Waiting 10.0s for "DeliveryCellPhoto" Image to exist
+    t =    13.61s     Checking `Expect predicate `exists == 1` for object "DeliveryCellPhoto" Image`
+    t =    13.66s Waiting 10.0s for "DeliveryCellTitle" StaticText to exist
+    t =    14.68s     Checking `Expect predicate `exists == 1` for object "DeliveryCellTitle" StaticText`
+    t =    14.75s Waiting 10.0s for "DeliveryCellSubtitle" StaticText to exist
+    t =    15.76s     Checking `Expect predicate `exists == 1` for object "DeliveryCellSubtitle" StaticText`
+    t =    15.80s Waiting 10.0s for "DeliveryCellPhoto" Image to exist
+    t =    16.81s     Checking `Expect predicate `exists == 1` for object "DeliveryCellPhoto" Image`
+    t =    16.85s Waiting 10.0s for "DeliveryCellTitle" StaticText to exist
+    t =    17.86s     Checking `Expect predicate `exists == 1` for object "DeliveryCellTitle" StaticText`
+    t =    17.90s Waiting 10.0s for "DeliveryCellSubtitle" StaticText to exist
+    t =    18.91s     Checking `Expect predicate `exists == 1` for object "DeliveryCellSubtitle" StaticText`
+    t =    18.95s Tear Down
+    t =    18.95s     Terminate com.lalamove.challenge.qa:25844
+Test Case '-[LalaTestProtocolBDDTests._3_LalaTestDeliveryListTest test_2_IconDescriptionLocationOfDeliveryItems]' passed (20.109 seconds).
+Test Case '-[LalaTestProtocolBDDTests._3_LalaTestDeliveryListTest test_3_DescriptionTypeAndToOfDeliveryItems]' started.
+    t =     0.00s Start Test at 2018-10-08 22:33:32.047
+    t =     0.07s Set Up
+    t =     0.07s     Open com.lalamove.challenge.qa
+    t =     0.12s         Launch com.lalamove.challenge.qa
+    t =     2.79s             Wait for accessibility to load
+    t =     3.51s             Wait for com.lalamove.challenge.qa to idle
+    t =     5.09s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     6.10s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     6.13s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     7.14s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     7.15s Waiting 10.0s for "DeliveriesTableView" Table to exist
+    t =     8.17s     Checking `Expect predicate `exists == 1` for object "DeliveriesTableView" Table`
+    t =     8.25s Waiting 10.0s for Cell to exist
+    t =     9.27s     Checking `Expect predicate `exists == 1` for object Cell`
+    t =     9.32s Get number of matches for: Children matching type Cell
+    t =     9.42s Find the "DeliveryCellTitle" StaticText
+Deliver documents to Andrio
+    t =     9.48s Find the "DeliveryCellTitle" StaticText
+    t =     9.53s Find the "DeliveryCellTitle" StaticText
+Deliver documents to Andrio
+    t =     9.56s Find the "DeliveryCellTitle" StaticText
+Deliver documents to Andrio
+    t =     9.60s Find the "DeliveryCellTitle" StaticText
+    t =     9.64s Find the "DeliveryCellTitle" StaticText
+    t =     9.67s Find the "DeliveryCellTitle" StaticText
+Deliver documents to Andrio
+    t =     9.71s Find the "DeliveryCellTitle" StaticText
+    t =     9.75s Find the "DeliveryCellTitle" StaticText
+Deliver documents to Andrio
+    t =     9.78s Find the "DeliveryCellTitle" StaticText
+Deliver documents to Andrio
+    t =     9.82s Find the "DeliveryCellTitle" StaticText
+    t =     9.86s Find the "DeliveryCellTitle" StaticText
+    t =     9.89s Find the "DeliveryCellTitle" StaticText
+Deliver documents to Andrio
+    t =     9.93s Find the "DeliveryCellTitle" StaticText
+    t =     9.97s Find the "DeliveryCellTitle" StaticText
+    t =    10.00s Find the "DeliveryCellTitle" StaticText
+Deliver documents to Andrio
+    t =    10.04s Find the "DeliveryCellTitle" StaticText
+    t =    10.08s Find the "DeliveryCellTitle" StaticText
+    t =    10.11s Find the "DeliveryCellTitle" StaticText
+Deliver documents to Andrio
+    t =    10.15s Find the "DeliveryCellTitle" StaticText
+    t =    10.19s Get number of matches for: Children matching type Cell
+    t =    10.28s Find the "DeliveryCellTitle" StaticText
+    t =    10.32s Find the "DeliveryCellTitle" StaticText
+Deliver parcel to Leviero
+    t =    10.35s Find the "DeliveryCellTitle" StaticText
+    t =    10.39s Find the "DeliveryCellTitle" StaticText
+    t =    10.42s Find the "DeliveryCellTitle" StaticText
+Deliver parcel to Leviero
+    t =    10.46s Find the "DeliveryCellTitle" StaticText
+    t =    10.50s Find the "DeliveryCellTitle" StaticText
+    t =    10.53s Find the "DeliveryCellTitle" StaticText
+Deliver parcel to Leviero
+    t =    10.57s Find the "DeliveryCellTitle" StaticText
+    t =    10.60s Find the "DeliveryCellTitle" StaticText
+    t =    10.64s Find the "DeliveryCellTitle" StaticText
+Deliver parcel to Leviero
+    t =    10.68s Find the "DeliveryCellTitle" StaticText
+    t =    10.71s Find the "DeliveryCellTitle" StaticText
+    t =    10.75s Find the "DeliveryCellTitle" StaticText
+    t =    10.78s Find the "DeliveryCellTitle" StaticText
+    t =    10.82s Find the "DeliveryCellTitle" StaticText
+    t =    10.85s Find the "DeliveryCellTitle" StaticText
+    t =    10.89s Find the "DeliveryCellTitle" StaticText
+    t =    10.93s Find the "DeliveryCellTitle" StaticText
+    t =    10.96s Find the "DeliveryCellTitle" StaticText
+    t =    11.00s Tear Down
+    t =    11.00s     Terminate com.lalamove.challenge.qa:25850
+Test Case '-[LalaTestProtocolBDDTests._3_LalaTestDeliveryListTest test_3_DescriptionTypeAndToOfDeliveryItems]' passed (12.075 seconds).
+Test Case '-[LalaTestProtocolBDDTests._3_LalaTestDeliveryListTest test_4_ItemsOnDeliveryListOnScroll]' started.
+    t =     0.00s Start Test at 2018-10-08 22:33:44.123
+    t =     0.05s Set Up
+    t =     0.05s     Open com.lalamove.challenge.qa
+    t =     0.10s         Launch com.lalamove.challenge.qa
+    t =     3.12s             Wait for com.lalamove.challenge.qa to idle
+    t =     4.50s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     5.53s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     5.56s Get number of matches for: Children matching type Cell
+    t =     5.60s Get number of matches for: Children matching type Cell
+    t =     5.64s Swipe up Target Application 'com.lalamove.challenge.qa'
+    t =     5.64s     Wait for com.lalamove.challenge.qa to idle
+    t =     5.67s     Find the Target Application 'com.lalamove.challenge.qa'
+    t =     5.69s         Check for interrupting elements affecting "LalaTest" Application
+    t =     5.70s     Synthesize event
+    t =     6.09s     Wait for com.lalamove.challenge.qa to idle
+    t =     8.37s Get number of matches for: Children matching type Cell
+    t =     9.69s Get number of matches for: Children matching type Cell
+    t =     9.82s Get number of matches for: Children matching type Cell
+    t =     9.93s Get number of matches for: Children matching type Cell
+    t =    10.06s Swipe up Target Application 'com.lalamove.challenge.qa'
+    t =    10.06s     Wait for com.lalamove.challenge.qa to idle
+    t =    10.15s     Find the Target Application 'com.lalamove.challenge.qa'
+    t =    10.19s         Check for interrupting elements affecting "LalaTest" Application
+    t =    10.20s     Synthesize event
+    t =    10.48s     Wait for com.lalamove.challenge.qa to idle
+    t =    11.55s Get number of matches for: Children matching type Cell
+    t =    11.74s Swipe up Target Application 'com.lalamove.challenge.qa'
+    t =    11.74s     Wait for com.lalamove.challenge.qa to idle
+    t =    11.80s     Find the Target Application 'com.lalamove.challenge.qa'
+    t =    11.88s         Check for interrupting elements affecting "LalaTest" Application
+    t =    11.88s     Synthesize event
+    t =    12.19s     Wait for com.lalamove.challenge.qa to idle
+    t =    14.47s Get number of matches for: Children matching type Cell
+    t =    15.81s Get number of matches for: Children matching type Cell
+    t =    16.05s Tear Down
+    t =    16.05s     Terminate com.lalamove.challenge.qa:25854
+Test Case '-[LalaTestProtocolBDDTests._3_LalaTestDeliveryListTest test_4_ItemsOnDeliveryListOnScroll]' passed (17.117 seconds).
+Test Case '-[LalaTestProtocolBDDTests._3_LalaTestDeliveryListTest test_5_DeleteItemFromDeliveryList]' started.
+    t =     0.00s Start Test at 2018-10-08 22:34:01.241
+    t =     0.05s Set Up
+    t =     0.05s     Open com.lalamove.challenge.qa
+    t =     0.10s         Launch com.lalamove.challenge.qa
+    t =     2.80s             Wait for accessibility to load
+    t =     3.40s             Wait for com.lalamove.challenge.qa to idle
+    t =     4.97s Waiting 10.0s for "Delivery List" NavigationBar to exist
+    t =     6.00s     Checking `Expect predicate `exists == 1` for object "Delivery List" NavigationBar`
+    t =     6.03s Get number of matches for: Children matching type Cell
+    t =     6.07s Find the "DeliveryCellTitle" StaticText
+    t =     7.09s     Find the "DeliveryCellTitle" StaticText (retry 1)
+    t =     8.10s     Find the "DeliveryCellTitle" StaticText (retry 2)
+    t =     8.32s Assertion Failure: <unknown>:0: No matches found for Find: Children matching type Cell from input {(
+    Table, identifier: 'DeliveriesTableView', label: 'DeliveriesTableView'
+)}
+    t =     8.36s Tear Down
+    t =     8.36s     Terminate com.lalamove.challenge.qa:25868
+Test Case '-[LalaTestProtocolBDDTests._3_LalaTestDeliveryListTest test_5_DeleteItemFromDeliveryList]' failed (9.444 seconds).
+Test Suite '_3_LalaTestDeliveryListTest' failed at 2018-10-08 22:34:10.685.
+	 Executed 5 tests, with 1 failure (0 unexpected) in 68.962 (68.965) seconds
+Test Suite 'LalaTestProtocolBDDTests.xctest' failed at 2018-10-08 22:34:10.686.
+	 Executed 10 tests, with 1 failure (0 unexpected) in 132.350 (132.359) seconds
+Test Suite 'Selected tests' failed at 2018-10-08 22:34:10.687.
+	 Executed 10 tests, with 1 failure (0 unexpected) in 132.350 (132.362) seconds
+
+
+Test session log:
+	/Users/madhan/TreeView/LalaMove/iOS/llmv/Reports/TestResults-08-10-2018_22.31.32/1_Test/Diagnostics/LalaTestProtocolBDDTests-0BD84F2E-5A3A-4809-B06F-D2A13F9C965C/LalaTestProtocolBDDTests-D6358ACA-5DCF-4E9F-8EA6-A28CAF1AB224/Session-LalaTestProtocolBDDTests-2018-10-08_223139-pY3k2S.log
+

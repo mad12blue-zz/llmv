@@ -1,0 +1,38 @@
+22:31:39.223 xcodebuild[24951:3784195] Got a sim device notification for iPhone X: {
+    notification = "availableDevices_changed";
+}
+22:31:39.229 xcodebuild[24951:3784194] Got a sim device notification for iPhone X: {
+    device = "iPhone X (D7197192-2E72-406F-95D2-989F36036351, iOS 12.0, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+22:31:39.229 xcodebuild[24951:3784194] Sim iPhone X state changed to 2
+22:31:39.229 xcodebuild[24951:3784194] Got a sim device notification for iPhone X: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone X (D7197192-2E72-406F-95D2-989F36036351, iOS 12.0, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+22:31:39.404 xcodebuild[24951:3784267] Got a sim device notification for iPhone X: {
+    notification = "availableDevices_changed";
+}
+22:31:39.404 xcodebuild[24951:3784267] Got a sim device notification for iPhone X: {
+    device = "iPhone X (D7197192-2E72-406F-95D2-989F36036351, iOS 12.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+22:31:39.404 xcodebuild[24951:3784267] Sim iPhone X state changed to 3
+22:31:39.404 xcodebuild[24951:3784267] Sim iPhone X: Unregistering for sim device notification with token 4
+22:31:39.404 xcodebuild[24951:3784267] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+22:31:39.414 xcodebuild[24951:3784267] Sim iPhone X has testmanagerd socket at /private/tmp/com.apple.launchd.HC2o3fvTBc/com.apple.testmanagerd.unix-domain.socket
+22:31:39.414 xcodebuild[24951:3784267] Validating test connection socket path (/private/tmp/com.apple.launchd.HC2o3fvTBc/com.apple.testmanagerd.unix-domain.socket)
+22:31:39.414 xcodebuild[24951:3784267] Constructing transport for test connection socket
+22:31:39.414 xcodebuild[24951:3784267] Connected socket 22 to testmanagerd for Sim iPhone X
+22:31:39.416 xcodebuild[24951:3784267] Initiating control session with controller protocol version 29
+22:31:57.216 xcodebuild[24951:3784334] Got reply to control session initiation request (result:error): 29: (null)
+22:31:57.216 xcodebuild[24951:3784334] Completed protocol exchange, test daemon is running v29.
+22:31:57.221 xcodebuild[24951:3784271] Got authorization request for pid 25151
+22:31:57.221 xcodebuild[24951:3784190] Requesting authorization for pid 25151
+22:31:57.718 xcodebuild[24951:3784190] Got reply to authorization request for pid 25151 (result:error): 1: (null)
