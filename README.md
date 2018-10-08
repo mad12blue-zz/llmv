@@ -24,7 +24,7 @@ $ TestNow=`date +%d-%m-%Y_%H.%M.%S` && open -a Simulator.app && xcodebuild -work
 
 7. Once the tests have started, progress and brief summary of execution can be seen on the terminal in human readable format as shown below
 
-
+![Alt text](/ReadmeImages/TerminalSummary.png?raw=true "Optional Title")
 
 8. Once the test execution is complete, HTML report gets generated in "llmv/Reports/TestResults-<timeStamp>" folder
 
