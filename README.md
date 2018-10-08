@@ -4,22 +4,22 @@ Step by step instructions to execute the test suite:
 
 1. Open terminal on mac
 
-2. Clone the repository
+2. Clone the repository:
 $ git clone https://github.com/mad12blue/llmv.git
 
-3. Navigate into the above cloned directory
+3. Navigate into the above cloned directory:
 $ cd llmv
 
-4. Install all dependencies 
+4. Install all dependencies: 
 $ pod install 
 
-5. Install XCTestHTMLReport dependency for custom reporting
+5. Install XCTestHTMLReport dependency for custom reporting:
 $ bash <(curl -s https://raw.githubusercontent.com/TitouanVanBelle/XCTestHTMLReport/master/install.sh)
 
-6(a). To run the tests in headless mode
+6(a). To run the tests in headless mode:
 $ TestNow=`date +%d-%m-%Y_%H.%M.%S` && xcodebuild -workspace LalaTest.xcworkspace -scheme "LalaTest" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=12.0' test -resultBundlePath Reports/TestResults-$TestNow | xcpretty -test -colors && xchtmlreport -r Reports/TestResults-$TestNow
 
-6(b). To run the tests in gui mode on simulator
+6(b). To run the tests in gui mode on simulator:
 $ TestNow=`date +%d-%m-%Y_%H.%M.%S` && open -a Simulator.app && xcodebuild -workspace LalaTest.xcworkspace -scheme "LalaTest" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=12.0' test -resultBundlePath Reports/TestResults-$TestNow | xcpretty -test -color && killall "Simulator" && xchtmlreport -r Reports/TestResults-$TestNow
 
 7. Once the tests have started, progress and brief summary of execution can be seen on the terminal in human readable format as shown below
