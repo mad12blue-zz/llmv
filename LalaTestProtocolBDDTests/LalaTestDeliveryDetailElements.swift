@@ -9,6 +9,8 @@
 import Foundation
 import XCTest
 
+//ALL EMELEMENTS OF THE DELIVERY DETAIL SCREEN
+
 enum DeliveryDetailElements {
     
     static let app = XCUIApplication();
@@ -22,6 +24,4 @@ enum DeliveryDetailElements {
     static let mapPin = app.otherElements.containing(.navigationBar, identifier:"Delivery Detail").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
     
     //static let co = mapPin.coordinate(withNormalizedOffset: CGVector)
-    
-    
 }

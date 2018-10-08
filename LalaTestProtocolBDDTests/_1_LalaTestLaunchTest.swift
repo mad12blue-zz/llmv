@@ -15,17 +15,22 @@
 
 import XCTest
 
+//TESTS TO LAUNCH AND CLOSE THE APP
+
 class _1_LalaTestLaunchTest: XCTestCase, Feature {
     
+    //SETUP
     override func setUp() {
         super.setUp()
         continueAfterFailure = false
     }
     
+    //TEAR DOWN
     override func tearDown() {
         super.tearDown()
     }
     
+    //TEST TO VERIFY IF THE APP IS LAUNCHED AND RUNNING
     func test_1_LalaTestAppIsRunning() {
         givenILaunchTheApp()
         thenIShouldSeeTheDeliveryList()

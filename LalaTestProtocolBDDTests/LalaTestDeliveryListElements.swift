@@ -17,6 +17,8 @@ This file stores all the XCUIElements for the screen or feature in the Swift enu
 import Foundation
 import XCTest
 
+//ALL EMELEMENTS OF THE DELIVERY LIST SCREEN
+
 enum DeliveryListElements {
     
     static let app = XCUIApplication();
@@ -43,6 +45,7 @@ enum DeliveryListElements {
 
 }
 
+//CUSTOM CLASS TO DELETE THE APP AND RESET ALL SETTINGS ON THE DEVICE
 class Springboard
 {
     static let springboard:XCUIApplication? = XCUIApplication(bundleIdentifier: "com.apple.springboard")
